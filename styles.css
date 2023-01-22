@@ -1,0 +1,43 @@
+html {
+    font-size: 10px;
+    background: url(./images/background_image.jpg) bottom center;
+    background-size: cover;
+  }
+    
+  .keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .key {
+    border: 3px solid black;
+    border-radius: 6px;
+    font-size: 35px;
+    margin: 2px;
+    transition: all .07s ease;
+    width: 90px;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.65);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .playing {
+    transform: scale(1.1);
+    border-color: #e21616;
+  }
+  
+  kbd {
+    display: block;
+    font-size: 40px;
+  }
+  
+  .sound-name {
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
